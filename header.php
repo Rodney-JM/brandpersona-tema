@@ -11,5 +11,5 @@
     <?php wp_body_open(); ?>
     
     <header>
-        <!-- Header here -->
+        um texto qualquer
     </header>
