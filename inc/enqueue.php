@@ -3,11 +3,27 @@
 //Enfileirando CSS e JS
 function brand_persona_enqueue_scripts()
 {
-    //Css
-    wp_enqueue_style(
-        'brand-persona-style',
-        get_template_directory_uri() . '/assets/styles/main.css', [], filemtime(get_template_directory() . '/assets/styles/main.css')
-    );
+    //Css imports
+    $styles = [
+        'main'   => '/assets/styles/main.css',
+        'colors' => '/assets/styles/base/colors.css',
+        'fonts'  => '/assets/styles/base/fonts.css',
+        'reset' => '/assets/styles/base/reset.css',
+        'header' => '/assets/styles/layouts/header.css',
+        'decoration-shape' => '/assets/styles/components/decoration-shape.css'
+    ];
+
+    foreach ($styles as $handle => $path) {
+        $uri = get_template_directory_uri() . $path;
+        $file = get_template_directory() . $path;
+
+        if (file_exists($file)) {
+            wp_enqueue_style("brand-persona-$handle", $uri, [], filemtime($file));
+        }
+    }
+
+    //fonts
+    wp_enqueue_style('brandpersona-fonts', get_template_directory_uri() . '/assets/styles/base/fonts.css', [], filemtime(get_template_directory() . '/assets/styles/base/fonts.css'));
 
     //JS
    /*  wp_enqueue_script(
@@ -18,3 +34,4 @@ function brand_persona_enqueue_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'brand_persona_enqueue_scripts');
+

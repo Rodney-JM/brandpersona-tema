@@ -1,0 +1,143 @@
+header{
+    width: 100%;
+    max-height: 659px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    background-color: var(--header-bg-primary-color);
+
+    border-bottom-left-radius: 100px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    font-family: 'Mukta';
+}
+
+.logotype{
+    width: 100%;
+    max-width: 9.12rem;
+    position: relative;
+    z-index: 20;
+}
+
+.logotype>img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.navbar nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.navbar nav ul>li{
+    color: var(--header-text-color);
+    font-family: 'Prompt';
+    font-weight: 400;
+    line-height: 4rem;
+    font-size: .75rem;
+    text-transform: uppercase;
+    list-style: none;
+    z-index: 20;
+}
+
+.home{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.image_container{
+    width: 100%;
+    max-width: 37.1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.image_container>img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home_content{
+    width: 42%;
+    display: flex;
+    align-items: start;
+    flex-direction: column; 
+    z-index: 20; 
+}
+
+.home_content>p:first-of-type{
+    font-family: 'Mukta', sans-serif;
+    font-size: .95rem;
+    line-height: 1.8rem;
+    color: var(--header-text-color);
+    font-weight: 300;
+
+    margin-top: 3rem;
+}
+
+.home_content> h2{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.1rem;
+    color: var(--header-text-color);
+}
+
+.home_content>p{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    color: var(--header-text-color);
+    margin-top: .5rem;
+}
+
+.home_content>button{
+    outline: none;
+    border: 1px solid var(--header-components-border-color);
+    background: transparent;
+    border-radius: .6rem;
+
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: .87rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    color: var(--header-text-color);
+
+    cursor: pointer;
+
+    padding: 0 2rem;
+    margin-top: 1.18rem;
+}
+
+.partners{
+    display: flex;
+    gap: 1.1rem;
+    margin-top: 8rem;
+}
+
+.partners>p{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.5rem;
+    color: var(--header-text-color);
+}
+
+.partners>img{
+    aspect-ratio: 110 / 24;
+}
