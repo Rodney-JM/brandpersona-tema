@@ -4,4 +4,11 @@
     --header-components-border-color: #FF9898;
     --header-text-color: #FFFFFF;
     --header-component-bg-primary-color: #f26b6b;
+    --footer-bg-primary-color: #E33F3F;
+    --footer-bg-secundary-color: #D13232;
+    --footer-input-bg: #EF5D5D;
+    --footer-input-cursor: #f6d0d0;
+    --footer-button-bg-color: #2ECC71;
+    --footer-end-text-color: #FFC1C1;
+    --footer-component-bg-primary-color: rgba(255, 152, 152, 0.2);
 }

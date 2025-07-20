@@ -11,6 +11,7 @@
     <?php wp_body_open(); ?>
     
     <header>
+        <div class="sqr_red"></div>
         <section class="navbar">
             <div class="logotype">
                 <img src="<?php echo asset('/images/brandpersona_marca.png')?>" alt="BrandPersona logo">
@@ -27,25 +28,28 @@
                 </ul>
             </nav>
         </section>
+        <div class="sqr4"></div>
         <div class="image_container">
                 <img src="<?php echo asset('/images/pose_1.png') ?>" alt="Mulher pose 1">
         </div>
+        <div class="sqr"></div>
         <section class="home">
             <div class="aux"></div>
             <div class="home_content">
-                <p>leve sua empresa para a nova realidade digital</p>
-                <h2>A sua persona virtual <br>com alta performance</h2>
-                <p>
+                <p class="mk-p">leve sua empresa para a nova realidade digital</p>
+                <h2 class="pt-p">A sua persona virtual <br>com alta performance</h2>
+                <p class="mk-p">
                     Para marcas inovadoras: Brand Persona PYXYS + Ilustraria  é o primeiro combo do Brasil
                     de construção de avatares 3D, com tecnologia de ponta em computação gráfica, combinada à mais completa Estratégia de  Content, Growth e Performance Data-driven
                 </p>
-                <button>Quero Saber mais</button>
+                <button class="pt-p">Quero Saber mais</button>
 
                 <div class="partners">
-                    <p>Um produto: </p>
+                    <p class="ct-p">Um produto: </p>
                     <img src="<?php echo asset('/images/pyxys_logo.png')?>" alt="PYXYS logo">
                     <img src="<?php echo asset('/images/ilustraria_logo.jpg')?>" alt="Ilustraria logo">
                 </div>
             </div>
         </section>
+        <div class="sqr2"></div>
     </header>

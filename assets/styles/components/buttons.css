@@ -1,0 +1,37 @@
+.home_content>button{
+    outline: none;
+    border: 1px solid var(--header-components-border-color);
+    border-radius: .6rem;
+
+    background: transparent;
+
+    font-weight: 700;
+    font-size: .87rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    padding: 0 2rem;
+    margin-top: 1.18rem;
+}
+
+.footer_content>button{
+    outline: none;
+    border: none;
+    border-radius: .6rem;
+
+    background-color: var(--footer-button-bg-color);
+
+    font-size: .9rem;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 7%;
+
+    padding: 1rem 3rem;
+    margin-top: .9rem;
+}

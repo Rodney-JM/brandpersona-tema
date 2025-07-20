@@ -58,7 +58,7 @@ header{
 .image_container{
     width: 100%;
     max-width: 37.1rem;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: 10;
@@ -79,50 +79,26 @@ header{
 }
 
 .home_content>p:first-of-type{
-    font-family: 'Mukta', sans-serif;
     font-size: .95rem;
     line-height: 1.8rem;
-    color: var(--header-text-color);
     font-weight: 300;
 
     margin-top: 3rem;
 }
 
 .home_content> h2{
-    font-family: 'Prompt', sans-serif;
     font-weight: 700;
     font-size: 2.8rem;
     line-height: 3.1rem;
-    color: var(--header-text-color);
 }
 
 .home_content>p{
-    font-family: 'Mukta', sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
     line-height: 1.8rem;
-    color: var(--header-text-color);
     margin-top: .5rem;
 }
 
-.home_content>button{
-    outline: none;
-    border: 1px solid var(--header-components-border-color);
-    background: transparent;
-    border-radius: .6rem;
-
-    font-family: 'Prompt', sans-serif;
-    font-weight: 700;
-    font-size: .87rem;
-    line-height: 3rem;
-    text-transform: uppercase;
-    color: var(--header-text-color);
-
-    cursor: pointer;
-
-    padding: 0 2rem;
-    margin-top: 1.18rem;
-}
 
 .partners{
     display: flex;
@@ -131,11 +107,9 @@ header{
 }
 
 .partners>p{
-    font-family: 'Catamaran', sans-serif;
     font-weight: 400;
     font-size: .9rem;
     line-height: 1.5rem;
-    color: var(--header-text-color);
 }
 
 .partners>img{

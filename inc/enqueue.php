@@ -10,7 +10,11 @@ function brand_persona_enqueue_scripts()
         'fonts'  => '/assets/styles/base/fonts.css',
         'reset' => '/assets/styles/base/reset.css',
         'header' => '/assets/styles/layouts/header.css',
-        'decoration-shape' => '/assets/styles/components/decoration-shape.css'
+        'footer' => '/assets/styles/layouts/footer.css',
+        'decoration-shape' => '/assets/styles/components/decoration-shape.css',
+        'texts' => '/assets/styles/components/texts.css',
+        'input' => '/assets/styles/components/input.css',
+        'buttons' => '/assets/styles/components/buttons.css'
     ];
 
     foreach ($styles as $handle => $path) {

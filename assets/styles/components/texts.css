@@ -1,0 +1,14 @@
+.mk-p{
+    font-family: 'Mukta', sans-serif;
+    color: var(--header-text-color);
+}
+
+.pt-p{
+    font-family: 'Prompt', sans-serif;
+    color: var(--header-text-color);
+}
+
+.ct-p{
+    font-family: 'Catamaran', sans-serif;
+    color: var(--header-text-color);
+}

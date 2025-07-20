@@ -1,0 +1,16 @@
+.inpt{
+    padding: 1rem 1rem;
+    width: 30%;
+
+    border: none;
+    outline: none;
+    border-radius: .6rem;
+
+    background-color: var(--footer-input-bg);
+    color: var(--footer-input-cursor);
+}
+
+.inpt::placeholder{
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+}
