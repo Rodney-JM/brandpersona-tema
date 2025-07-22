@@ -1,6 +1,6 @@
 .sec4{
     width: 100%;
-    max-height: 457px;
+    max-height: 580px;
     height: 100vh;
     overflow: hidden;
     background-color: var(--section4-bg-primary-color);
@@ -54,7 +54,7 @@
     font-size: 2rem;
     line-height: 1.4rem;
 
-    color: var(--section4-title-color);
+    color: var(--section-title-color);
     margin-top: .3rem;
 }
 
@@ -77,7 +77,9 @@
     gap: .8rem;
 
     margin-top: 1.4rem;
+    margin-bottom: 2rem;
     padding: 0 .5rem;
+    z-index: 20;
 }
 
 .sec_4_point{

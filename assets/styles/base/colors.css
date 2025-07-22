@@ -11,10 +11,11 @@
     --footer-button-bg-color: #2ECC71;
     --footer-end-text-color: #FFC1C1;
     --footer-component-bg-primary-color: rgba(255, 152, 152, 0.2);
+    --section-title-color: rgba(64, 64, 68, 1);
     --section2-bg-primary-color: #FFFFFF;
     --text-emph-color: rgba(227, 63, 63, 1);
     --section2-title-color: rgba(73, 73, 73, 1);
-    --section2-desc-color: rgba(119, 119, 119, 1);
+    --section-desc-color: rgba(119, 119, 119, 1);
     --section2-bg-icons-color: #fad9d9;
     --section2-block-title-color: rgba(64, 64, 68, 1);
     --section2-block-desc-color: rgba(64, 64, 68, 1);
@@ -32,7 +33,6 @@
     --section3-topic-pemph: rgba(220, 242, 237, 1);
     --section3-topic-p: rgba(220, 242, 237, 1);
     --section4-bg-primary-color: #FFFFFF;
-    --section4-title-color: rgba(64, 64, 68, 1);
     --section4-desc-color: rgba(114, 114, 114, 1);
     --section4-points-shadow: rgba(0, 0, 0, 0.1);
     --section4-component-image-bg-color: rgba(220, 242, 237, 1);

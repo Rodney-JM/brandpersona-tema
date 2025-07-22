@@ -20,13 +20,13 @@
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.4rem;
-    color: var(--section2-title-color);
+    color: var(--section-title-color);
 }
 
 .sec2_content>p{
     width: 94%;
 
-    color: var(--section2-desc-color);
+    color: var(--section-desc-color);
 
     font-family: 'Catamaran';
     font-weight: 300;
