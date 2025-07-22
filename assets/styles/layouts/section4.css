@@ -1,0 +1,125 @@
+.sec4{
+    width: 100%;
+    max-height: 457px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--section4-bg-primary-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    padding: 4.3rem 7.5rem;
+}
+
+.sec4> .images_container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    position: relative;
+}
+
+.sec4 > .images_container>img{
+    
+    aspect-ratio: 524 / 436;
+
+    position: absolute;
+}
+
+.sec4 > .images_container > img:nth-child(1) {
+    left: -2rem;
+    z-index: 1;
+}
+.sec4 > .images_container > img:nth-child(2) {
+    left: 6rem;
+    z-index: 2;
+}
+.sec4 > .images_container > img:nth-child(3) {
+    left: 14rem;
+    z-index: 1;
+}
+
+.sec4> .sec_4_content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sec4> .sec_4_content> h2{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.4rem;
+
+    color: var(--section4-title-color);
+    margin-top: .3rem;
+}
+
+.sec4 > .sec_4_content>p{
+    width: 93%;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 150%;
+
+    color: var(--section4-desc-color);
+
+    margin-top: .8rem;
+}
+
+.sec4 .sec_4_poits{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: .8rem;
+
+    margin-top: 1.4rem;
+    padding: 0 .5rem;
+}
+
+.sec_4_point{
+    height: 5.89rem;
+    width:100%;
+
+    background-color: var(--section2-component2-bg-color);
+    box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.1);
+
+    border-radius: .45rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding-left: 1rem;
+}
+
+.sec_4_point>.sec_4_image_container{
+    height: 2.8rem;
+    width: 2.8rem;
+
+    padding: .3rem .5rem;
+
+    background-color: var(--section4-component-image-bg-color);
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec_4_point> h2{
+    width: 58%;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 100%;
+
+    color: var(--section4-component-text-color);
+}
+
+.sec_4_point> .smll{
+    width: 55%;
+}

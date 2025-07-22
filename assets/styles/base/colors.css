@@ -31,4 +31,10 @@
     --section3-topic-title: rgba(220, 242, 237, 1);
     --section3-topic-pemph: rgba(220, 242, 237, 1);
     --section3-topic-p: rgba(220, 242, 237, 1);
+    --section4-bg-primary-color: #FFFFFF;
+    --section4-title-color: rgba(64, 64, 68, 1);
+    --section4-desc-color: rgba(114, 114, 114, 1);
+    --section4-points-shadow: rgba(0, 0, 0, 0.1);
+    --section4-component-image-bg-color: rgba(220, 242, 237, 1);
+    --section4-component-text-color: rgba(64, 64, 68, 1);
 }
