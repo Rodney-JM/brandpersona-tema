@@ -15,14 +15,6 @@
     width: 38%;
 }
 
-.sec2_content> p:first-of-type{
-    font-family: 'Mukta', sans-serif;
-    font-size: 1.125rem;
-    line-height: 2.5rem;
-
-    color: var(--section2-text-color-p1);
-}
-
 .sec2_content>h2{
     font-family: 'Prompt';
     font-weight: 700;

@@ -1,6 +1,6 @@
 <section class="sec2">
     <div class="sec2_content">
-        <p>um novo mercado</p>
+        <p class="p-emph">um novo mercado</p>
         <h2>Afinal, por que minha empresa precisa do combo Brand Persona?</h2>
         <p>Com a realidade virtual batendo à porta e as novas formas de relações hídridas com o consumidor, as marcas precisam ter uma persona 3D com a estratégia certa de conteúdo e performance data-driven para novas plataformas digitais</p>
 

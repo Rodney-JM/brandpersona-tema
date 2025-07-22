@@ -12,7 +12,7 @@
     --footer-end-text-color: #FFC1C1;
     --footer-component-bg-primary-color: rgba(255, 152, 152, 0.2);
     --section2-bg-primary-color: #FFFFFF;
-    --section2-text-color-p1: rgba(227, 63, 63, 1);
+    --text-emph-color: rgba(227, 63, 63, 1);
     --section2-title-color: rgba(73, 73, 73, 1);
     --section2-desc-color: rgba(119, 119, 119, 1);
     --section2-bg-icons-color: #fad9d9;
@@ -25,4 +25,10 @@
     --section2-component2-bg-color: rgb(255, 255, 255);
     --section2-component2-image-bg-color: #dcf2ed;
     --section2-component2-text-color: rgba(73, 73, 73, 1);
+    --section3-bg-primary-color: rgba(249, 249, 249, 1);
+    --section3-title-color: rgba(73, 73, 73, 1);
+    --section3-bg-color: rgba(73, 73, 73, 1);
+    --section3-topic-title: rgba(220, 242, 237, 1);
+    --section3-topic-pemph: rgba(220, 242, 237, 1);
+    --section3-topic-p: rgba(220, 242, 237, 1);
 }

@@ -12,3 +12,11 @@
     font-family: 'Catamaran', sans-serif;
     color: var(--header-text-color);
 }
+
+.p-emph{
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.125rem;
+    line-height: 2.5rem;
+
+    color: var(--text-emph-color) !important;
+}
