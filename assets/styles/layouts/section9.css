@@ -1,0 +1,54 @@
+.sec9{
+    width: 100%;
+    max-height: 967px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--section9-bg-primary-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    justify-content: space-around;
+    padding: 2% 12%;
+}
+
+.sec9_title{
+    margin-bottom: .9rem;
+}
+
+.sec9> .p-desc{
+    width: 71%;
+    text-align: center;
+}
+
+.sec9_partners{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec9_partners .sec9_partner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec9_partners .sec9_partner img{
+    margin-bottom: 2rem;
+}
+.sec9_partners .sec9_partner>p:first-of-type{
+    font-size: 1rem;
+}
+
+.sec9_partners .sec9_partner>p{
+    width: 95%;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.bold{
+    font-weight: 900 !important;
+    color: var(--section9-bold-color);
+}

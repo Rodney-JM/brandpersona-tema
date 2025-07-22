@@ -8,5 +8,6 @@
 <?php get_template_part('partials/section6')?>
 <?php get_template_part('partials/section7')?>
 <?php get_template_part('partials/section8')?>
+<?php get_template_part('partials/section9')?>
 
 <?php get_footer(); ?>

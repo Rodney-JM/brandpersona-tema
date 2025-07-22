@@ -18,6 +18,7 @@ function brand_persona_enqueue_scripts()
         'section6' => '/assets/styles/layouts/section6.css',
         'section7' => '/assets/styles/layouts/section7.css',
         'section8' => '/assets/styles/layouts/section8.css',
+        'section9' => '/assets/styles/layouts/section9.css',
         'decoration-shape' => '/assets/styles/components/decoration-shape.css',
         'texts' => '/assets/styles/components/texts.css',
         'input' => '/assets/styles/components/input.css',
