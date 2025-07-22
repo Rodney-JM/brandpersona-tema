@@ -29,3 +29,13 @@
 
     color: var(--section-title-color);
 }
+
+.p-desc{
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 150%;
+
+    margin-bottom: 2.45rem;
+    color: var(--section-desc2-color);
+}

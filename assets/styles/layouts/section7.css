@@ -1,0 +1,125 @@
+.sec7{
+    width: 100%;
+    max-height: 702px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--section7-bg-primary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+    padding: 2% 12%;
+}
+
+.image_part{
+    position: relative;
+}
+
+.image_part>article:first-of-type{
+    width: 15.5rem;
+    height: 4.8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+
+    background-color: white;
+    box-shadow: .3rem .3rem 3.75rem rgba(0,0,0, .1);
+    border-radius: .6rem;
+
+    position: absolute;
+    right: 0;
+}
+
+.title_art{
+    font-size: .95rem !important;
+}
+
+.sec7_image_container{
+    width: 100%;
+    width: 550px;
+    max-height: 520px;
+    overflow: hidden;
+
+    border-radius: 250px;
+    box-shadow: 1.2rem 1.2rem rgba(255, 234, 234, 1);
+}
+
+.sec7_image_container>img{
+    width: 100%;
+    height: auto;  
+}
+
+.image_part>.sec7_sqr{
+    position: absolute;
+    top: 2rem;
+
+    width: 13rem;
+    height: 23rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .5rem;
+
+    background-color: white;
+    box-shadow: .3rem .3rem 3.75rem rgba(0,0,0, .1);
+    border-radius: .6rem;
+
+    padding-left: 1.45rem;
+    position: absolute;
+}
+
+.sec7_sqr>h2{
+    font-size: 1.11rem;
+    color: var(--section7-component2-title-color);
+}
+.image_part>.sec7_sqr>.sqr_part{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.sec7_sqr>.sqr_part>.upper_part{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.sec7_sqr>.sqr_part>.upper_part>.title_sqr{
+    font-size: .8rem;
+    line-height: 1rem;
+}
+
+.sec7_content{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+}
+
+.sec7_content> .p_description{
+    margin-bottom: 2.45rem;
+}
+
+.sec7_content_points>article{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: .9rem;
+}
+.sec7_content_points>article>img{
+    margin-top: .5rem;
+}
+
+.sec7_content_points>article>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.sec7_content_points>article>div>h2{
+    font-size: 1.5rem;
+}

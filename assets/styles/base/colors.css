@@ -16,6 +16,7 @@
     --text-emph-color: rgba(227, 63, 63, 1);
     --section2-title-color: rgba(73, 73, 73, 1);
     --section-desc-color: rgba(119, 119, 119, 1);
+    --section-desc2-color: rgba(114, 114, 114, 1);
     --section2-bg-icons-color: #fad9d9;
     --section2-block-title-color: rgba(64, 64, 68, 1);
     --section2-block-desc-color: rgba(64, 64, 68, 1);
@@ -38,4 +39,6 @@
     --section4-component-image-bg-color: rgba(220, 242, 237, 1);
     --section4-component-text-color: rgba(64, 64, 68, 1);
     --section6-bg-primary-color: rgba(249, 249, 249, 1);
+    --section7-bg-primary-color: #FFFFFF;
+    --section7-component2-title-color: rgba(227, 63, 63, 1);
 }
