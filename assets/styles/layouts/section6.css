@@ -1,0 +1,57 @@
+.sec6{
+    width: 100%;
+    max-height: 625px;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--section6-bg-primary-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    padding: 2% 12%;
+    z-index: 10;
+}
+
+.sec6> h1{
+    margin-top: -.5rem;
+}
+
+.sec6_topics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 4.5%;
+    position: relative;
+}
+
+.sec6_topics>article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    z-index: 20;
+}
+
+.sec6_topics>article>h2{
+    font-size: 1.35rem !important;
+}
+
+.sec6_topics>article>p{
+    width: 95%;
+    font-family: 'Catamaran', sans-serif;
+    font-size: .9rem;
+    line-height: 150%;
+    text-align: center;
+}
+
+.sec6_topics>article>p>span{
+    font-weight: 700;
+}
+
+.sp{
+    margin-top: .7rem;
+}

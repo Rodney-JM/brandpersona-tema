@@ -6,7 +6,7 @@
     </div>
     <div class="sec_4_content">
         <p class="p-emph">como posso te ajudar?</p>
-        <h2>Oi, eu sou a Bê, do Brand Persona!</h2>
+        <h2 class="title">Oi, eu sou a Bê, do Brand Persona!</h2>
         <p>O combo Brand Persona PYXYS + Ilustraria vai muito além de desenhar um avatar 3D: é o primeiro do Brasil a combinar a criação da persona virtual com um plano de performance, voltado para resultados do negócio. “Vem comigo que sua marca vai aprender a escutar e conversar com seu cliente, construindo uma comunidade no universo digital”, convida Bê, a avatar do Brand Persona.</p>
 
         <div class="sec_4_poits">

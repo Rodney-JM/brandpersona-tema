@@ -16,11 +16,7 @@
 }
 
 .sec2_content>h2{
-    font-family: 'Prompt';
-    font-weight: 700;
-    font-size: 2rem;
     line-height: 2.4rem;
-    color: var(--section-title-color);
 }
 
 .sec2_content>p{

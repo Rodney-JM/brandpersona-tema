@@ -1,0 +1,17 @@
+.line-dotted{
+    width: 100%;
+    max-width: 861px;
+    max-height: 186px;
+
+    position: absolute;
+    left: 170px;
+    top: 90px;
+
+    z-index: 10;
+}
+
+.line-dotted>img{
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}

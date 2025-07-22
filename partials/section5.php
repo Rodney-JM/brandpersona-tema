@@ -1,7 +1,7 @@
 <section class="sec5">
     <div class="sec5_headline">
         <p class="p-emph">2 versões para performar melhor em cada ambiente digital </p>
-        <h1>Qual estilo é mais adequado para sua marca? </h1>
+        <h1 class="title">Qual estilo é mais adequado para sua marca? </h1>
     </div>
     <div class="sec_5_versions">
         <div class="version">

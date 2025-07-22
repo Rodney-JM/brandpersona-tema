@@ -15,10 +15,12 @@ function brand_persona_enqueue_scripts()
         'section3' => '/assets/styles/layouts/section3.css',
         'section4' => '/assets/styles/layouts/section4.css',
         'section5' => '/assets/styles/layouts/section5.css',
+        'section6' => '/assets/styles/layouts/section6.css',
         'decoration-shape' => '/assets/styles/components/decoration-shape.css',
         'texts' => '/assets/styles/components/texts.css',
         'input' => '/assets/styles/components/input.css',
-        'buttons' => '/assets/styles/components/buttons.css'
+        'buttons' => '/assets/styles/components/buttons.css',
+        'line-dotted' => '/assets/styles/components/line-dotted.css'
     ];
 
     foreach ($styles as $handle => $path) {

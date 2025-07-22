@@ -21,12 +21,6 @@
 }
 
 .sec5>.sec5_headline h1{
-    font-family: 'Prompt', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    line-height: 2.4rem;
-
-    color: var(--section-title-color);
     margin-top: -.5rem;
 }
 
