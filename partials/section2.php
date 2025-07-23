@@ -1,4 +1,4 @@
-<section class="sec2">
+<section class="sec2" id="porque">
     <div class="sec2_content">
         <p class="p-emph">um novo mercado</p>
         <h2 class="title">Afinal, por que minha empresa precisa do combo Brand Persona?</h2>

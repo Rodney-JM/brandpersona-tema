@@ -1,4 +1,4 @@
-<footer>
+<footer id="contato">
     <div class="sqr_red ft_sqr_red"></div>
     <div class="sqr ft_sqr_white1"></div>
     <div class="sqr2 ft_sqr_border"></div>

@@ -1,4 +1,4 @@
-<section class="sec4">
+<section class="sec4" id="vantagens">
     <div class="images_container">
         <img src="<?php echo asset('/images/pose1_sec4.png')?>" alt="Mulher Pose 1">
         <img src="<?php echo asset('/images/Pose2_sec4.png')?>" alt="Mulher Pose 2">

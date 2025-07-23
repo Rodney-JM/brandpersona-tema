@@ -37,22 +37,30 @@ header{
     gap: 3.2rem;
 }
 
+
 .navbar nav ul>li{
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    z-index: 20;
+}
+
+.navbar nav ul>li>a{
     color: var(--header-text-color);
     font-family: 'Prompt';
     font-weight: 400;
     line-height: 4rem;
     font-size: .75rem;
     text-transform: uppercase;
-    list-style: none;
-
-    cursor: pointer;
-    transition: all 0.2s ease;
-    z-index: 20;
+    text-decoration: none;
 }
 
 .navbar nav ul>li:hover{
     transform: translateY(-5px);
+}
+
+.navbar nav ul>li>a:hover{
+
     color: var(--header-nav-color-hover);
 }
 

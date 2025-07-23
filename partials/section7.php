@@ -1,4 +1,4 @@
-<section class="sec7">
+<section class="sec7" id="combo">
     <div class="image_part">
         <article>
             <img src="<?php echo asset('/icons/acrt.png')?>" alt="Acerto ícone">

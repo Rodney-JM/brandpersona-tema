@@ -1,4 +1,4 @@
-<section class="sec3">
+<section class="sec3" id="mercado">
     <p class="p-emph">os números comprovam</p>
     <h1>Influenciador virtual traz resultados concretos para grandes marcas</h1>
     <div class="topics">

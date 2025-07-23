@@ -1,4 +1,4 @@
-<section class="sec5">
+<section class="sec5" id="como-funciona">
     <div class="sec5_headline">
         <p class="p-emph">2 versões para performar melhor em cada ambiente digital </p>
         <h1 class="title">Qual estilo é mais adequado para sua marca? </h1>

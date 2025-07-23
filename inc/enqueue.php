@@ -24,7 +24,8 @@ function brand_persona_enqueue_scripts()
         'input' => '/assets/styles/components/input.css',
         'buttons' => '/assets/styles/components/buttons.css',
         'line-dotted' => '/assets/styles/components/line-dotted.css',
-        'lines' => '/assets/styles/components/lines.css'
+        'lines' => '/assets/styles/components/lines.css',
+        'top-arrow'=> '/assets/styles/components/top-arrow.css'
     ];
 
     foreach ($styles as $handle => $path) {

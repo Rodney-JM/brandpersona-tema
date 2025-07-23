@@ -9,7 +9,7 @@
     <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body id="top" <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     
     <header>
@@ -20,13 +20,13 @@
             </div>
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Por que Brand Persona</li>
-                    <li>O mercado</li>
-                    <li>Vantagens</li>
-                    <li>Como funciona</li>
-                    <li>O combo</li>
-                    <li>Contato</li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#porque">Por que Brand Persona</a></li>
+                    <li><a href="#mercado">O mercado</a></li>
+                    <li><a href="#vantagens">Vantagens</a></li>
+                    <li><a href="#como-funciona">Como funciona</a></li>
+                    <li><a href="#combo">O combo</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
             <div class="nav-inner-container"><i class='bx bx-menu menu-button'></i></div> 
@@ -56,3 +56,6 @@
         </section>
         <div class="sqr2"></div>
     </header>
+    <div class="scroll_top_wrapper" onclick="backToTop()">
+        <p>back</p>
+    </div>
