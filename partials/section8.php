@@ -6,12 +6,12 @@
             <p class="p-desc"> A parceria entre a startup de inteligência digital PYXYS e o estúdio de computação gráfica Ilustraria 3D inova ao lançar no mercado um combo pioneiro de construção de personas virtuais aliado a um plano de performance data-driven, direcionado para acelerar resultados do negócio e o posicionamento estratégico de grandes empresas, como as marcas atendidas por ambas.</p>
         </div>
         <div class="upper_images">
-            <div class="upper_image pyxys_image">
+            <figure class="upper_image pyxys_image">
                 <img src="<?php echo asset('/images/pyxys_logo_preto.png')?>" alt="Pyxys logo">
-            </div>
-            <div class="upper_image ilustraria_image">
+            </figure>
+            <figure class="upper_image ilustraria_image">
                 <img src="<?php echo asset('/images/logo-ilustraria3d 3.png')?>" alt="Ilustraria logo">
-            </div>
+            </figure>
         </div>
     </div>
     <div class="lower">

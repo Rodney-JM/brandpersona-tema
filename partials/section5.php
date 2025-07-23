@@ -6,12 +6,12 @@
     <div class="sec_5_versions">
         <div class="version">
             <div class="images_container">
-                <div class="image_container1">
+                <figure class="image_container1">
                     <img src="<?php echo asset('/images/pose_1_corpo_inteiro.png')?>" alt="Pose 1 corpo inteiro mulher">
-                </div>
-                <div class="image_container2">
+                </figure>
+                <figure class="image_container2">
                     <img src="<?php echo asset('/images/pose_1_face.png')?>" alt="Pose 1 face mulher">
-                </div>
+                </figure>
             </div>
             <div class="version_content">
                 <h2>Versão estilizada</h2>
@@ -27,12 +27,12 @@
         </div>
         <div class="version">
             <div class="images_container">
-                <div class="image_container1">
+                <figure class="image_container1">
                     <img src="<?php echo asset('/images/pose_2_corpo_inteiro.png')?>" alt="Pose 1 corpo inteiro mulher">
-                </div>
-                <div class="image_container2">
+                </figure>
+                <figure class="image_container2">
                     <img src="<?php echo asset('/images/pose_2_face.png')?>" alt="Pose 1 face mulher">
-                </div>
+                </figure>
             </div>
             <div class="version_content">
                 <h2>Versão realista</h2>
