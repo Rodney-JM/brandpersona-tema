@@ -93,3 +93,33 @@
 .p_aux{
     width: 80%;
 }
+
+/* Responsive */
+
+
+@media (max-width: 1024px) {
+  .sec3{
+    height: auto;
+    max-height: none;
+
+    padding-top: 10%;
+  }
+
+  .topics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+  }
+
+   .topic .p_enfx{
+    padding-left: 0;
+   }
+
+  .p_aux{
+    width: 100%;
+  }
+
+  .topic_text>p{
+    text-align: center;
+  }
+}

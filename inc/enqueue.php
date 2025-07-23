@@ -40,11 +40,11 @@ function brand_persona_enqueue_scripts()
     wp_enqueue_style('brandpersona-fonts', get_template_directory_uri() . '/assets/styles/base/fonts.css', [], filemtime(get_template_directory() . '/assets/styles/base/fonts.css'));
 
     //JS
-   /*  wp_enqueue_script(
+    wp_enqueue_script(
         'brandpersona-script',
-        get_template_directory_uri() . '/build/js/main.js',
-        [], filemtime(get_template_directory() . '/build/js/main.js'), true
-    ); */
+        get_template_directory_uri() . '/assets/js/main.js',
+        [], filemtime(get_template_directory() . '/assets/js/main.js'), true
+    ); 
 }
 
 add_action('wp_enqueue_scripts', 'brand_persona_enqueue_scripts');

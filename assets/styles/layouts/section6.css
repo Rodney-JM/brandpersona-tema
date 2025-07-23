@@ -55,3 +55,19 @@
 .sp{
     margin-top: .7rem;
 }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sec6{
+    height: auto;
+    max-height: none;
+    align-items: center;
+  }
+
+  .sec6_topics{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 5%;
+  }
+}

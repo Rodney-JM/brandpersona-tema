@@ -67,6 +67,7 @@ footer{
     align-items: center;
 
     height: 3.02rem;
+    width: 100%;
 
     background-color: var(--footer-bg-secundary-color);
 }
@@ -77,4 +78,24 @@ footer{
     font-size: .95rem;
 
     color: var(--footer-end-text-color);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  footer{
+    max-height: none;
+    height: auto;
+
+    flex-direction: column-reverse;
+  }
+
+  .footer_content{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer_content> .desc{
+    width: 90%;
+    margin-top: 5%;
+  }
 }

@@ -52,3 +52,18 @@
     font-weight: 900 !important;
     color: var(--section9-bold-color);
 }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sec9{
+    height: auto;
+    max-height: none;
+    align-items: center;
+  }
+
+  .sec9_partners{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

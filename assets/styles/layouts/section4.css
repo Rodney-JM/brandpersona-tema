@@ -120,3 +120,44 @@
 .sec_4_point> .smll{
     width: 55%;
 }
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .sec4{
+    height: auto;
+    max-height: none;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+
+  .sec4> .sec_4_content{
+    width: 90%;
+  }
+
+  .sec4> .sec_4_content> h2{
+    line-height: 2rem;
+    margin-top: .3rem;
+}
+
+  .sec_4_point{
+    width: 20rem;
+  }
+
+  .sec4 > .images_container>img{
+    right: 0;
+    bottom: 0;
+  }
+
+    .sec4 > .images_container > img:nth-child(1) {
+        left: 2rem;
+        z-index: 1;
+    }
+    .sec4 > .images_container > img:nth-child(2) {
+        display: none;
+    }
+    .sec4 > .images_container > img:nth-child(3) {
+        display: none;
+    }
+}

@@ -100,3 +100,36 @@
     align-items: center;
     gap: 1.6rem;
 }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .sec8{
+    height: auto;
+    max-height: none;
+    align-items: center;
+  }
+
+  .upper{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15%;
+  }
+
+  .upper_content{
+    width: 90%;
+  }
+
+  .lower{
+    flex-direction: column;
+  }
+
+  .pyxys_clients{
+    margin-bottom: 10%;
+  }
+
+  .ilustraria_logos{
+    margin-bottom: 10%;
+  }
+}

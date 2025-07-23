@@ -4,6 +4,8 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Importando os icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <?php wp_head(); ?>
 </head>
 
@@ -27,6 +29,7 @@
                     <li>Contato</li>
                 </ul>
             </nav>
+            <div class="nav-inner-container"><i class='bx bx-menu menu-button'></i></div> 
         </section>
         <div class="sqr4"></div>
         <div class="image_container">

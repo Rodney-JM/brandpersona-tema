@@ -1,5 +1,7 @@
 :root{
     --header-bg-primary-color: #E33F3F;
+    --header-nav-color-hover: #ee9292;
+    --header-nav-bg-color: #852b2b;
     --header-bg-secundary-color: #f26b6b;
     --header-components-border-color: #FF9898;
     --header-text-color: #FFFFFF;

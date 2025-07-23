@@ -101,3 +101,22 @@
     font-size: 1rem;
     color: var(--section-desc-color);
 }
+
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .sec5{
+    height: auto;
+    max-height: none;
+    align-items: center;
+  }
+
+  .sec5> .sec_5_versions{
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  .version{
+    margin-top: 10%;
+  }
+}

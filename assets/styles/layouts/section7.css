@@ -123,3 +123,31 @@
 .sec7_content_points>article>div>h2{
     font-size: 1.5rem;
 }
+
+/* Responsive*/
+@media (max-width: 1024px) {
+  .sec7{
+    height: auto;
+    max-height: none;
+    align-items: center;
+
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec7_content{
+    width: 90%;
+    margin-top: 10%;
+  }
+
+  .sec7_content_points>article{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sec7_image_container{
+    margin: 5% 0;
+  }
+}

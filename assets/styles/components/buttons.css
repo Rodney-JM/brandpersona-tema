@@ -35,3 +35,10 @@
     padding: 1rem 3rem;
     margin-top: .9rem;
 }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .footer_content>button{
+    margin: 5% auto;
+  }
+}

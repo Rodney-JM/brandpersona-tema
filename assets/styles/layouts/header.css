@@ -45,7 +45,15 @@ header{
     font-size: .75rem;
     text-transform: uppercase;
     list-style: none;
+
+    cursor: pointer;
+    transition: all 0.2s ease;
     z-index: 20;
+}
+
+.navbar nav ul>li:hover{
+    transform: translateY(-5px);
+    color: var(--header-nav-color-hover);
 }
 
 .home{
@@ -114,4 +122,62 @@ header{
 
 .partners>img{
     aspect-ratio: 110 / 24;
+}
+
+.bx-menu{
+    display: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+  .navbar>nav{
+    position: absolute;
+    background-color: var(--header-nav-bg-color);
+    border-radius: .6rem;
+    width: 50%;
+    top: 0px;
+    z-index: 30;
+    display: none;
+  }
+
+  .show-menu nav{
+    display: block;
+  }
+  nav ul{
+    flex-direction: column;
+  }
+
+  nav ul li{
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .menu-button{
+    display: block;
+    font-size: 1.5rem;margin-left: 0.5rem;
+    color: white;
+  }
+
+  .image_container{
+    display: none;
+    max-width: 20rem;
+    bottom: 0;
+
+    left: 50%;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home_content {
+    align-items: center;
+  }
+
+  .home_content h2 {
+    font-size: 2.2rem;
+  }
+
 }
